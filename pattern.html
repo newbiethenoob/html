@@ -1,0 +1,20 @@
+<body>
+    <button type="button" onclick="confirm('Do you want to delete?'">동작</button>
+    <button type="button" class="action">동작</button>
+    <script>
+        document.querySelector('.action').addEventListener("click", () => {
+            window.open(
+                'http://www.naver.com','','width=300 height=200'
+            );
+            // location = 'http://www.naver.com';
+        });
+    </script>
+    <textarea name="message" cols="45" rows="1">The cat was playing in the garden.</textarea>
+
+    <form action="">
+        <input type="text" name="country_code" pattern="[가-힣0-9A-Za-z]{3}"
+        title="Three letter country code">
+        <input type="text" name="code" pattern="010-[0-9]{3,4}-[0-9]{4}">
+        <button type="submit">제출</button>
+    </form>
+</body>
